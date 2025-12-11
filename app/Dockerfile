@@ -23,7 +23,7 @@ RUN addgroup -S appgroup && adduser -S nonroot -G appgroup
 WORKDIR /app
 #copy files from build stage to producution and make it go into the ./build folder
 COPY --from=build /app/build ./build
-#make ownership to non root user to read the static files (-r means all files in this folder)
+#make ownership to non root user to read the static files (-R means all files in this folder)
 RUN chown -R nonroot:appgroup /app
 # Install serve command for yarn package manager
 RUN yarn global add serve
