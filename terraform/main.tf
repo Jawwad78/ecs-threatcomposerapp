@@ -13,6 +13,7 @@ module "vpc" {
   tcp = var.tcp
   cidr_ipv4 = var.cidr_ipv4
   ecs_sg_ports = var.ecs_sg_ports
+  ecs_sg_ports_1 = var.ecs_sg_ports_1
 }
 
 module "ecs" {

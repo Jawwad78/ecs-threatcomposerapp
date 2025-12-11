@@ -104,6 +104,11 @@ variable "port_443" {
   description = "port for https that we use"
 }
 
+variable "ecs_sg_ports_1" {
+  type = number
+  description = "port inbound ecs to alb"
+}
+
 variable "tcp" {
   type = string
   description = "tcp"
