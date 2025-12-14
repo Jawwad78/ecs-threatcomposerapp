@@ -14,7 +14,11 @@ jobs:
  terraform-init-plan:
    name: Terraform init and plan
    runs-on: ubuntu-latest
-   
+   defaults:
+    run:
+      working-directory: ./terraform
+
+
    steps:
      - name: checks out code
        uses: actions/checkout@v4
