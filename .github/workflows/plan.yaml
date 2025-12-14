@@ -4,7 +4,7 @@ on:
 
 env:
   AWS_REGION: eu-west-2
-  
+  AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
 
 permissions:
   id-token: write #  it allows github to make the oidc token
