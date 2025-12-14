@@ -1,42 +1,42 @@
 variable "cidr_block_vpc" {
  type = string
-  description = "VPC cidr block"
+ description = "VPC cidr block"
 }
 
 variable "cidr_block_public_1" {
  type = string
-  description = "public subnet 1"
+ description = "public subnet 1"
 }
 
 variable "cidr_block_public_2" {
  type = string
-  description = "public subnet 2"
+ description = "public subnet 2"
 }
 
 variable "cidr_block_private_1" {
  type = string
-  description = "private subnet 1"
+ description = "private subnet 1"
 }
 
 variable "cidr_block_private_2" {
  type = string
-  description = "private subnet 2"
+ description = "private subnet 2"
 }
 
 
 variable "availability_zone_1" {
-    type = string
-    description = "1st az location "
+  type = string
+  description = "1st az location "
 }
 
 variable "availability_zone_2" {
-    type = string
-    description = "2nd az location "
+  type = string
+  description = "2nd az location "
 }
 
 variable "cpu" {
-    type = string
-    description = "cpu for container"
+  type = string
+  description = "cpu for container"
 }
 
 variable "memory" {
@@ -174,8 +174,8 @@ variable "hostPort" {
 }
 
 variable "domain_name" {
-    type = string
-    description = "my domain name "
+  type = string
+  description = "my domain name "
 }
 
 variable "validation_method" {

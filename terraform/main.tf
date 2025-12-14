@@ -1,7 +1,7 @@
 module "vpc" {
   source = "./modules/vpc"
 
-  cidr_block_vpc =  var.cidr_block_vpc
+  cidr_block_vpc = var.cidr_block_vpc
   cidr_block_public_1 = var.cidr_block_public_1
   cidr_block_public_2 = var.cidr_block_public_2
   cidr_block_private_1 = var.cidr_block_private_1
