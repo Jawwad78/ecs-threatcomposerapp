@@ -25,7 +25,7 @@ A **multi-stage Docker build** was used to optimise the final image size.
 **Percentage reduction:**  
 88%
 
-I reduuce the image size by 88% which  means deployments are faster as there is less data to download when a container starts
+I reduced the image size by 88% which  means deployments are faster as there is less data to download when a container starts
 
 ---
 
@@ -60,13 +60,13 @@ CI/CD pipelines are used to automate:
 
 ## Video of app working on my custom domain
 
-![Image](https://github.com/user-attachments/assets/07653b3b-26b0-49ae-b330-3073f068d155)
+![Image](https://github.com/user-attachments/assets/5a2c3b3e-4d3d-4845-8327-7e6a1f1d0eaf)
 
 ## Photos of pipelines
 
 <img width="1892" height="933" alt="Image" src="https://github.com/user-attachments/assets/3c89b891-b724-47e4-a89a-4992318a5369" />
 
-<img width="1909" height="902" alt="Image" src="https://github.com/user-attachments/assets/ac4cfdbc-e262-43e7-9297-a69242bdaefa" />
+<img width="1906" height="842" alt="Image" src="https://github.com/user-attachments/assets/16aa7f13-ae48-49d0-9447-1e71910355d3" />
 
 <img width="1891" height="898" alt="Image" src="https://github.com/user-attachments/assets/8a751e35-7c47-4b3f-81fc-2f7781ebd726" />
 
