@@ -45,6 +45,13 @@ jobs:
      - name: terraform validate
        run: terraform validate
     
+     - name: use tfavrs from secrets
+       run: |
+         cat <<'STOP' > terraform.tfvars
+         ${{ secrets.TFVARS_SECRET }}
+         STOP
+        
+        
      - name: Terraform Plan
        run: terraform plan
     

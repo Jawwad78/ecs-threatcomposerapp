@@ -1,5 +1,6 @@
 name: build and push docker image to ecr
-on: [push]
+on:
+  workflow_dispatch:
 
 env:
   AWS_REGION: eu-west-2
