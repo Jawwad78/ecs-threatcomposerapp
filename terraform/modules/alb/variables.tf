@@ -1,5 +1,3 @@
-
-
 variable "internal" {
   type = string
   description = "is alb internal"
