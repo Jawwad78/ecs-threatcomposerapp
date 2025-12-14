@@ -58,6 +58,15 @@ CI/CD pipelines are used to automate:
 
 ---
 
+## Repo structure
+.
+├── app/                  # Node.js application and Dockerfile
+├── terraform/            # Terraform infrastructure code
+├── .github/workflows/    # CI/CD pipelines (Docker build & push, Terraform plan/apply/destroy)
+├── docker_sizes/         # Docker image size comparison screenshots
+├── README.md
+└── .gitignore
+
 ## Video of app working on my custom domain
 
 ![Image](https://github.com/user-attachments/assets/5a2c3b3e-4d3d-4845-8327-7e6a1f1d0eaf)
