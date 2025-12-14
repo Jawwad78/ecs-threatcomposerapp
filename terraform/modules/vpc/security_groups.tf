@@ -61,8 +61,8 @@ resource "aws_vpc_security_group_ingress_rule" "inbound_ecs" {
   security_group_id = aws_security_group.ecs.id
   referenced_security_group_id = aws_security_group.alb.id
   ip_protocol = var.tcp
-  from_port = var.ecs_sg_ports_1
-  to_port = var.ecs_sg_ports_1
+  from_port = "3000"
+  to_port = "3000"
 }
 
 
