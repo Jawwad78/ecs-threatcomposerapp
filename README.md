@@ -20,7 +20,7 @@ A **multi-stage Docker build** was used to optimise the final image size.
 * Multi-stage Docker image size: **197 MB**
 
 **Total size saved:**  
-1.443 GB
+1.43 GB
 
 **Percentage reduction:**  
 88%
@@ -30,6 +30,8 @@ I reduuce the image size by 88% which  means deployments are faster as there is 
 ---
 
 ## Infrastructure Architecture
+
+<img width="1920" height="1348" alt="Image" src="https://github.com/user-attachments/assets/7a37d037-79b7-4387-b57c-ddfed399567a" />
 
 * **ECS Fargate** for serverless container execution
 * **Application Load Balancer (ALB)** deployed in public subnets
