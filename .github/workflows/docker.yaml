@@ -4,8 +4,8 @@ on:
 
 env:
   AWS_REGION: eu-west-2
-  AWS_ACCOUNT_ID: 726661503364
-  AWS_ECR_REPO: 726661503364.dkr.ecr.eu-west-2.amazonaws.com/threatcomposer/app
+  AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
+  AWS_ECR_REPO: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.eu-west-2.amazonaws.com/threatcomposer/app
   IMAGE_TAG: ${{ github.sha }}
 
 permissions:
