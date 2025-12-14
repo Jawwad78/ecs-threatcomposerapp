@@ -57,3 +57,18 @@ CI/CD pipelines are used to automate:
 * **DynamoDB** used for Terraform state locking
 
 ---
+
+## Video of app working on my custom domain
+
+![Image](https://github.com/user-attachments/assets/07653b3b-26b0-49ae-b330-3073f068d155)
+
+## Photos of pipelines
+
+<img width="1892" height="933" alt="Image" src="https://github.com/user-attachments/assets/3c89b891-b724-47e4-a89a-4992318a5369" />
+
+<img width="1909" height="902" alt="Image" src="https://github.com/user-attachments/assets/ac4cfdbc-e262-43e7-9297-a69242bdaefa" />
+
+<img width="1891" height="898" alt="Image" src="https://github.com/user-attachments/assets/8a751e35-7c47-4b3f-81fc-2f7781ebd726" />
+
+<img width="1893" height="906" alt="Image" src="https://github.com/user-attachments/assets/1927bcca-c1d5-4aef-9611-7b7d557ffbb5" />
+
