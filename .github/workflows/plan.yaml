@@ -50,7 +50,15 @@ jobs:
          cat <<'STOP' > terraform.tfvars
          ${{ secrets.TFVARS_SECRET }}
          STOP
-        
+      
+     - name: Test with Checkov
+       id: checkov
+       uses: bridgecrewio/checkov-action@master
+       with:
+          directory: ./terraform
+          framework: terraform     
+          output_format: github_failed_only
+          soft_fail: true     # pipeline does not fail but shows output   
         
      - name: Terraform Plan
        run: terraform plan
