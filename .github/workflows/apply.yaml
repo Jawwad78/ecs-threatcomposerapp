@@ -1,6 +1,9 @@
 name: Terraform init and apply
 on:
-  workflow_dispatch:
+  workflow_run:
+    workflows: [ "Terraform init and plan"] # this workflow runs when ci workflow finishes
+    types:
+      - completed
 
 env:
   AWS_REGION: eu-west-2
