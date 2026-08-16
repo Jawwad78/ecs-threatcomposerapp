@@ -5,7 +5,7 @@ terraform {
     key    = "terraform.tfstate"
     region = "eu-west-2"
     # for dynamodb state locking ,we use  LockId in partition key
-    dynamodb_table = "terraform-state-lock-dynamo"
+    use_lockfile = true
   }
 }
 
